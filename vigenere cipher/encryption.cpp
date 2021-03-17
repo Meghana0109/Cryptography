@@ -26,6 +26,7 @@ int main()
 		c1[i]=(p1[i]+k1[i%k_size])%26;
 		c[i]=char(c1[i]+65);
 	}
+	cout << "The ciphertext is:" ;
 	for(i=0;i<p_size;i++)
 	{
 		cout<< c[i];
